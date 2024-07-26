@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <button class="toggle-button" id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    <h1>Metric/Imperial Unit Conversion</h1>
+    <div class="input-section">
+        <input type="number" id="inputValue" value="" />
+        <button class="convert-button" id="convert" onclick="convert()">Convert</button>
+    </div>
+    <div class="result-card">
+        <p>Length (Meter/Feet)</p>
+        <p id="lengthResult"></p>
+    </div>
+    <div class="result-card">
+        <p>Volume (Liters/Gallons)</p>
+        <p id="volumeResult"></p>
+    </div>
+    <div class="result-card">
+        <p>Mass (Kilograms/Pounds)</p>
+        <p id="massResult"></p>
+    </div>
+</div>
+</div>
+
+  
+
+
+  <script src="index.js"></script>
+</body>
+</html>
